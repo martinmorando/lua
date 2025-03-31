@@ -3,13 +3,17 @@
 ]]
 
 -- String
-print(type("eps1.0_hellofriend.mov"))   -- Output: string
+title = "eps1.0_hellofriend.mov"
+print(type(title))               -- Output: string
 
 -- Number
-print(type(21000000))                   -- Output: number
+n = 21000000
+print(type(n))                   -- Output: number
 
 -- Boolean
-print(type(true))                       -- Output: boolean
+isBBAScam = true
+print(type(isBBAScam))           -- Output: boolean
 
 -- Nil: absence of value
-print(type(nil))                        -- Output: nil
+theVoid = nil
+print(type(theVoid))             -- Output: nil
