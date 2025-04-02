@@ -3,7 +3,11 @@
 ]]
 
 messageA = "Keep going!"
-messageB = "GOOOOOOO!"
+messageB = "Gooooooooo!"
 
 -- String concatenation
-print(messageA .. messageB)
+print(messageA .. " " .. messageB) -- Output: Keep going! Gooooooooo!
+
+-- Lowercase & uppercase
+print(string.lower(messageA))      -- Output: keep going! 
+print(string.upper(messageB))      -- Output: GOOOOOOOOO!
